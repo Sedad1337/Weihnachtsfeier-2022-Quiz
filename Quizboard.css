@@ -41,6 +41,31 @@ body {
     border-radius: 15px;
     margin-left: 10px;
     margin-top: 10px;
+    justify-content: flex-start;
+    flex-direction: row;
+    transition: 150s all;
+  }
+  .Startbutton {
+    font: bold 3rem/1 poppins;
+    color: #dd0000;
+    font-family: cursive;
+    font-family: cursive;
+    /* margin: 5%; */
+    text-align: center;
+  }
+  .StartHeadline {
+    font: bold 3rem/1 poppins;
+    color: #dd0000;
+    font-family: cursive;
+    margin: 10%;
+    text-align: center;
+  }
+  .Scoretext {
+    font: bold 2rem/1 poppins;
+    color: #1000ed;
+    font-family: cursive;
+    margin: 10%;
+    text-align: center;
   }
   
   /* .button2 {
@@ -66,6 +91,7 @@ body {
     left: 0;
     right: 0;
     font-family: cursive;
+    /* padding: 2rem 0 2rem 2rem 2rem; */
   }
   
   .progress-bar {
