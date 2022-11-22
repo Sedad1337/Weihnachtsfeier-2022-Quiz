@@ -39,9 +39,18 @@ button {
     /* margin:10px; */
 }
 .CategoryHeadline {
+    font: bold 3rem/1 poppins;
+    color: #dd0000;
+    font-family: cursive;
+    margin: 10%;
+    text-align: center;
+}
+.CategoryAnswers {
+    font: bold 3rem/1 poppins;
     color: black;
-    font-size: 36px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+    margin: 10%;
+    text-align: center;
 }
 .CategoryFrame {
     height: 150px;

@@ -235,18 +235,18 @@
 </html>
 
 <script>
-     var team1scorevar = 11;
-     var team2scorevar = 12;
-     var team3scorevar = 13;
-     var team4scorevar = 14;
-     var team5scorevar = 15;
-     var team6scorevar = 16;
-     var team7scorevar = 17;
-     var team8scorevar = 18;
-     var team9scorevar = 19;
-     var team10scorevar = 20;
-     var team11scorevar = 21;
-     var team12scorevar = 22;
+     var team1scorevar = 0;
+     var team2scorevar = 0;
+     var team3scorevar = 0;
+     var team4scorevar = 0;
+     var team5scorevar = 0;
+     var team6scorevar = 0;
+     var team7scorevar = 0;
+     var team8scorevar = 0;
+     var team9scorevar = 0;
+     var team10scorevar = 0;
+     var team11scorevar = 0;
+     var team12scorevar = 0;
 
     document.getElementById('team1scorenumber').innerHTML = team1scorevar ;
     document.getElementById('team2scorenumber').innerHTML = team2scorevar ;
@@ -262,11 +262,11 @@
     document.getElementById('team12scorenumber').innerHTML = team12scorevar ;
 
     function CountScoreUp(InputScore) {
-        InputScore = InputScore + 1;
+        InputScore++;
         return InputScore;
     }
     function CountScoreDown(InputScore) {
-        InputScore = InputScore - 1;
+        InputScore--;
         return InputScore;
     }
     function OnQuestionClick(InputQuestion) {
