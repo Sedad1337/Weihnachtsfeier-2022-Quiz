@@ -221,8 +221,8 @@
                     <div class="ScoreboardTeams">Team 12:
                         <span id="team12scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                            <button onclick="CountScoreUp(team12scorenumber)">+</button>
+                            <button onclick="CountScoreDown(team12scorenumber)">-</button>
                         </div>
                     </div>
                     </div>
@@ -257,4 +257,11 @@
     document.getElementById('team10scorenumber').innerHTML = team10scorevar ;
     document.getElementById('team11scorenumber').innerHTML = team11scorevar ;
     document.getElementById('team12scorenumber').innerHTML = team12scorevar ;
+
+    function CountScoreUp(InputVar) {
+        InputVar = InputVar + 1;
+    }
+    function CountScoreDown(InputVar) {
+        InputVar = InputVar - 1;
+    }
 </script>
