@@ -139,7 +139,7 @@
                 </th>
                 <th>
                     <div class="CategoryFrame">
-                        <div class="CategoryText">Architektur</div>
+                        <div class="CategoryText" onclick="OnQuestionClick()">Architektur</div>
                     </div>
                 </th>
             </tr>
@@ -149,76 +149,76 @@
                     <div class="ScoreboardTeams">Team 1:
                         <span id="team1scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team1scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team1scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 2:
                         <span id="team2scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team2scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team2scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 3:
                         <span id="team3scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team3scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team3scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 4:
                         <span id="team4scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team4scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team4scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 5:
                         <span id="team5scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team5scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team5scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 6:
                         <span id="team6scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team6scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team6scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 7:
                         <span id="team7scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team7scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team7scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 8:
                         <span id="team8scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team8scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team8scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 9:
                         <span id="team9scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team9scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team9scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 10:
                         <span id="team10scorenumber"></span>
-                        <button>+</button>
-                        <button>-</button>
+                        <button onclick="CountScoreUp(team10scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team10scorenumber)">-</button>
                     </div>
                     <div class="ScoreboardTeams">Team 11:
                         <span id="team11scorenumber"></span>
                         <div class="ScoreboardButton">
-                            <button>+</button>
-                            <button>-</button>
+                        <button onclick="CountScoreUp(team11scorenumber)">+</button>
+                        <button onclick="CountScoreDown(team11scorenumber)">-</button>
                         </div>
                     </div>
                     <div class="ScoreboardTeams">Team 12:
@@ -261,10 +261,15 @@
     document.getElementById('team11scorenumber').innerHTML = team11scorevar ;
     document.getElementById('team12scorenumber').innerHTML = team12scorevar ;
 
-    function CountScoreUp(InputVar) {
-        InputVar = InputVar + 1;
+    function CountScoreUp(InputScore) {
+        InputScore = InputScore + 1;
+        return InputScore;
     }
-    function CountScoreDown(InputVar) {
-        InputVar = InputVar - 1;
+    function CountScoreDown(InputScore) {
+        InputScore = InputScore - 1;
+        return InputScore;
+    }
+    function OnQuestionClick(InputQuestion) {
+        
     }
 </script>
