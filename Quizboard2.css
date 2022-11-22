@@ -1,0 +1,60 @@
+header {
+    background: #acacac;
+    height: 50px;
+}
+body {
+    background: #ececec;
+}
+footer {
+    background: #acacac;
+    height: 25px;
+}
+button {
+    font-size: 12pt;
+}
+.table {
+    background:#d1d1d1;
+    float: left;
+    /* margin:10px; */
+}
+.CategoryFrame {
+    height: 150px;
+    width: 250px;   
+    cursor: pointer;
+}
+.CategoryText {
+    color: black;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ScoreboardFrame {
+    background: #d5d5d5;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+    
+    /* margin:10px; */
+}
+.ScoreboardHeadline {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.ScoreboardTeams {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 5px;
+    /* border-top: 5px solid #ececec; */
+}
+.ScoreboardButton {
+    float: right;
+    padding-left: 10px;
+    padding-right: 25px;
+}
