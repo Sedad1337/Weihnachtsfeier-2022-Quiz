@@ -6,15 +6,21 @@ body {
     background: #ececec;
 }
 footer {
-    background: #acacac;
+    /* background: #acacac; */
     height: 25px;
 }
 button {
     font-size: 12pt;
 }
+.QuizHeadline {
+    color: black;
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .table {
     background:#d1d1d1;
     float: left;
+    /* border-inline: ; */
     /* margin:10px; */
 }
 .CategoryFrame {
