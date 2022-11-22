@@ -9,10 +9,9 @@
   //   pathEl.setAttribute("stroke-dashoffset", offset);
   // }
 
-  var ScoreTeam1 = 0, ScoreTeam2 = 0, ScoreTeam3 = 0, ScoreTeam4 = 0, ScoreTeam5 = 0;
+//   var ScoreTeam1 = 0, ScoreTeam2 = 0, ScoreTeam3 = 0, ScoreTeam4 = 0, ScoreTeam5 = 0;
 
-//
-  document.getElementById(ScoreTeam1).innerHTML = ScoreTeam1;
+//   document.getElementById(ScoreTeam1).innerHTML = ScoreTeam1;
 //
   // basicTimeline
   //   .add({
@@ -64,6 +63,6 @@
   //   basicTimeline.play();
   // });
 
-  function name(params) {
+  // function name(params) {
     
-  }
+  // }
