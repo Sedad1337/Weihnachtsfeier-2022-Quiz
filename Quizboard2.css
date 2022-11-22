@@ -12,6 +12,21 @@ footer {
 button {
     font-size: 12pt;
 }
+.Startbutton {
+    font: bold 3rem/1 poppins;
+    color: #dd0000;
+    font-family: cursive;
+    font-family: cursive;
+    /* margin: 5%; */
+    text-align: center;
+  }
+  .StartHeadline {
+    font: bold 3rem/1 poppins;
+    color: #dd0000;
+    font-family: cursive;
+    margin: 10%;
+    text-align: center;
+  }
 .QuizHeadline {
     color: black;
     font-size: 36px;
@@ -22,6 +37,11 @@ button {
     float: left;
     /* border-inline: ; */
     /* margin:10px; */
+}
+.CategoryHeadline {
+    color: black;
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .CategoryFrame {
     height: 150px;
@@ -45,7 +65,7 @@ button {
 }
 .ScoreboardHeadline {
     color: black;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
